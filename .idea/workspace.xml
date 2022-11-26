@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="Collection Interface Code added">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ListDemo.java" afterDir="false" />
+    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="List Interface Code added">
+      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListAccessElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListFromCollectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListRemoveElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListSortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arraylist/IterateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "last_opened_file_path": "/home/hp/IdeaProjects/JCFExamples/Screenshot",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,13 +56,13 @@
       <recent name="$PROJECT_DIR$/Screenshot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListDemo">
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.CollectionDemo" />
+  <component name="RunManager" selected="Application.ArrayListSortingExample">
+    <configuration name="ArrayListAccessElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListAccessElementExample" />
       <module name="JCFExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +70,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.ListDemo" />
+    <configuration name="ArrayListRemoveElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListRemoveElementExample" />
       <module name="JCFExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListSortingExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListSortingExample" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListSortingExample" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IterateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.IterateExample" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.CollectionDemo" />
+        <item itemvalue="Application.ArrayListSortingExample" />
+        <item itemvalue="Application.ArrayListSortingExample (1)" />
+        <item itemvalue="Application.IterateExample" />
+        <item itemvalue="Application.ArrayListRemoveElementExample" />
+        <item itemvalue="Application.ArrayListAccessElementExample" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669433220338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="List Interface Code added">
+      <created>1669433694407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669433694407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Read Me File Updated" />
     <MESSAGE value="Collection Interface Code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection Interface Code added" />
+    <MESSAGE value="List Interface Code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="List Interface Code added" />
   </component>
 </project>
