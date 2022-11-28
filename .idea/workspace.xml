@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="LinkedList Class Code added">
-      <change afterPath="$PROJECT_DIR$/src/hashset/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashset/HashSetOverviewExample.java" afterDir="false" />
+    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="HashSet Class Code added">
+      <change afterPath="$PROJECT_DIR$/src/hashmap/HashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,20 @@
       <recent name="$PROJECT_DIR$/Screenshot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetDemo">
+  <component name="RunManager" selected="Application.HashMapDemo">
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashmap.HashMapDemo" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashset.HashSetDemo" />
       <module name="JCFExamples" />
@@ -93,19 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetrieveElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.RetrieveElementExample" />
-      <module name="JCFExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchIterateElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.SearchIterateElement" />
       <module name="JCFExamples" />
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapDemo" />
         <item itemvalue="Application.HashSetDemo" />
         <item itemvalue="Application.HashSetOverviewExample" />
         <item itemvalue="Application.SearchIterateElement" />
         <item itemvalue="Application.RemoveElementExample" />
-        <item itemvalue="Application.RetrieveElementExample" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +138,7 @@
       <updated>1669311562914</updated>
       <workItem from="1669311564386" duration="1042000" />
       <workItem from="1669436996595" duration="257000" />
-      <workItem from="1669645801820" duration="4787000" />
+      <workItem from="1669645801820" duration="6818000" />
     </task>
     <task id="LOCAL-00001" summary="Read Me File Updated">
       <created>1669432310326</created>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669648462038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HashSet Class Code added">
+      <created>1669651207773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669651207773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +205,7 @@
     <MESSAGE value="List Interface Code added" />
     <MESSAGE value="ArrayList Class Code added" />
     <MESSAGE value="LinkedList Class Code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList Class Code added" />
+    <MESSAGE value="HashSet Class Code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashSet Class Code added" />
   </component>
 </project>
