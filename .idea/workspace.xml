@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="List Interface Code added">
-      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListAccessElementExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListFromCollectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListRemoveElementExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/ArrayListSortingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arraylist/IterateExample.java" afterDir="false" />
+    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="ArrayList Class Code added">
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/CreateLinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/RemoveElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/RetrieveElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/SearchIterateElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,46 +55,7 @@
       <recent name="$PROJECT_DIR$/Screenshot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListSortingExample">
-    <configuration name="ArrayListAccessElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListAccessElementExample" />
-      <module name="JCFExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListRemoveElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListRemoveElementExample" />
-      <module name="JCFExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListSortingExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListSortingExample" />
-      <module name="JCFExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraylist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SearchIterateElement">
     <configuration name="ArrayListSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListSortingExample" />
       <module name="JCFExamples" />
@@ -109,12 +69,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.IterateExample" />
+    <configuration name="CreateLinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.CreateLinkedListExample" />
       <module name="JCFExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arraylist.*" />
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveElementExample" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetrieveElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.RetrieveElementExample" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIterateElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.SearchIterateElement" />
+      <module name="JCFExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchIterateElement" />
+        <item itemvalue="Application.RemoveElementExample" />
+        <item itemvalue="Application.RetrieveElementExample" />
+        <item itemvalue="Application.CreateLinkedListExample" />
         <item itemvalue="Application.ArrayListSortingExample" />
-        <item itemvalue="Application.ArrayListSortingExample (1)" />
-        <item itemvalue="Application.IterateExample" />
-        <item itemvalue="Application.ArrayListRemoveElementExample" />
-        <item itemvalue="Application.ArrayListAccessElementExample" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669311562914</updated>
       <workItem from="1669311564386" duration="1042000" />
+      <workItem from="1669436996595" duration="257000" />
+      <workItem from="1669645801820" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="Read Me File Updated">
       <created>1669432310326</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669433694407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ArrayList Class Code added">
+      <created>1669436637233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669436637233</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +192,7 @@
     <MESSAGE value="Read Me File Updated" />
     <MESSAGE value="Collection Interface Code added" />
     <MESSAGE value="List Interface Code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="List Interface Code added" />
+    <MESSAGE value="ArrayList Class Code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList Class Code added" />
   </component>
 </project>
