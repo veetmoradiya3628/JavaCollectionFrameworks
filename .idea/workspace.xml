@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="ArrayList Class Code added">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/CreateLinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/RemoveElementExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/RetrieveElementExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/SearchIterateElement.java" afterDir="false" />
+    <list default="true" id="6f2d56e8-d6fd-4616-b9f2-cceea80c1743" name="Changes" comment="LinkedList Class Code added">
+      <change afterPath="$PROJECT_DIR$/src/hashset/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashset/HashSetOverviewExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +53,13 @@
       <recent name="$PROJECT_DIR$/Screenshot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchIterateElement">
-    <configuration name="ArrayListSortingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraylist.ArrayListSortingExample" />
+  <component name="RunManager" selected="Application.HashSetDemo">
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashset.HashSetDemo" />
       <module name="JCFExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arraylist.*" />
+          <option name="PATTERN" value="hashset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateLinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.CreateLinkedListExample" />
+    <configuration name="HashSetOverviewExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashset.HashSetOverviewExample" />
       <module name="JCFExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="hashset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.HashSetOverviewExample" />
         <item itemvalue="Application.SearchIterateElement" />
         <item itemvalue="Application.RemoveElementExample" />
         <item itemvalue="Application.RetrieveElementExample" />
-        <item itemvalue="Application.CreateLinkedListExample" />
-        <item itemvalue="Application.ArrayListSortingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +139,7 @@
       <updated>1669311562914</updated>
       <workItem from="1669311564386" duration="1042000" />
       <workItem from="1669436996595" duration="257000" />
-      <workItem from="1669645801820" duration="2561000" />
+      <workItem from="1669645801820" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="Read Me File Updated">
       <created>1669432310326</created>
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669436637233</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LinkedList Class Code added">
+      <created>1669648462038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669648462038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +198,7 @@
     <MESSAGE value="Collection Interface Code added" />
     <MESSAGE value="List Interface Code added" />
     <MESSAGE value="ArrayList Class Code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList Class Code added" />
+    <MESSAGE value="LinkedList Class Code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList Class Code added" />
   </component>
 </project>
